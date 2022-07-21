@@ -1,16 +1,13 @@
 <script>
-	import logo from './assets/logo.png'
-	import Counter from './lib/Counter.svelte'
+	import Top from './lib/TopSofC.svelte'
 </script>
 
 <main>
-	<div id="bar"></div>
-	<img src={logo} alt="School of Cities Logo" />
+	<Top/>
 	<h1>Hello world!</h1>
 	<p>
 		(Simple <a href="https://svelte.dev">Svelte</a> page to build upon from)
 	</p>
-	<Counter/>
 </main>
 
 <style>
@@ -55,12 +52,12 @@
 	}
 
 	@media (min-width: 480px) {
-	h1 {
-		max-width: none;
-	}
+		h1 {
+			max-width: none;
+		}
 
-	p {
-		max-width: none;
-	}
+		p {
+			max-width: none;
+		}
 	}
 </style>
