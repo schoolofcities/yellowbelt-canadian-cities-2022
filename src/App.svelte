@@ -4,7 +4,10 @@
 
 <main>
 	<Top/>
-	<h1>Hello world!</h1>
+	<div class="title">
+		<h1>Hello world!</h1>
+	</div>
+	
 	<p>
 		(Simple <a href="https://svelte.dev">Svelte</a> page to build upon from)
 	</p>
@@ -18,26 +21,23 @@
 	:global(body) {
 		padding: 0px;
 		margin: 0px;
+		background-color: #1E3765;
 	}
 
 	main {
 		text-align: center;
+		margin-top: 100px;
 		padding: 0px;
 		margin: 0px;
-	}
-	#bar {
-		height: 50px;
-		background-color: #1E3765;
-		margin-bottom: 20px;
+		
 	}
 
-	img {
-		height: 16rem;
-		width: 16rem;
+	.title {
+		margin-top: 100px;
 	}
 
 	h1 {
-		color: #0D534D;
+		color: white;
 		text-transform: uppercase;
 		font-size: 4rem;
 		font-weight: 100;
