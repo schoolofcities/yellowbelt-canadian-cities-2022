@@ -1,6 +1,7 @@
 <script>
 	import Top from './lib/TopSofC.svelte'
-	import Toronto from './assets/toronto-web.png'
+	import TorontoWeb from './assets/toronto-web.png'
+	import TorontoPrint from './assets/toronto-print.png'
 </script>
 
 <main>
@@ -9,7 +10,7 @@
 
 	<div class="title">
 		<h1>the <span id="yellow">Yellowbelt</span></h1>
-		<h3>Mapping extreme exclusionary zoning in four Canadian cities</h3>
+		<h2>Mapping extreme exclusionary zoning in four Canadian cities</h2>
 	</div>
 
 	<div class="text">
@@ -17,7 +18,7 @@
 	</div>
 
 	<div class="map">
-		<img src={Toronto} alt="Toronto Map" />
+		<a href={TorontoPrint}><img src={TorontoWeb} alt="Toronto Map" /></a>
 	</div>
 	
 </main>
@@ -51,12 +52,6 @@
 		max-width: 800px;
 	}
 
-	h3 {
-		color: white;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	}
-
 	h1 {
 		font-family: TradeGothicBold, sans-serif;
 		color: white;
@@ -65,6 +60,12 @@
 		line-height: 1.1;
 		margin: 2rem auto;
 		max-width: 14rem;
+	}
+
+	h2 {
+		color: white;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
 
 	#yellow {
