@@ -19,7 +19,7 @@
 		padding-left: 0px;
 		padding-right: 0px;
 		text-align: center;
-		z-index: 5;
+		z-index: 5;	
 		box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
 	}
 	img:hover {

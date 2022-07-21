@@ -1,19 +1,32 @@
 <script>
 	import Top from './lib/TopSofC.svelte'
+	import Toronto from './assets/toronto-web.png'
 </script>
 
 <main>
+
 	<Top/>
+
 	<div class="title">
-		<h1>Hello world!</h1>
+		<h1>the <span id="yellow">Yellowbelt</span></h1>
+		<h3>Mapping extreme exclusionary zoning in four Canadian cities</h3>
+	</div>
+
+	<div class="text">
+		<p>Lorem ipsum blah blah blah</p>
+	</div>
+
+	<div class="map">
+		<img src={Toronto} alt="Toronto Map" />
 	</div>
 	
-	<p>
-		(Simple <a href="https://svelte.dev">Svelte</a> page to build upon from)
-	</p>
 </main>
 
 <style>
+	@font-face {
+		font-family: TradeGothicBold;
+		src: url("./assets/Trade Gothic LT Bold.ttf");
+	}
 	:root {
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
 		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -33,17 +46,43 @@
 	}
 
 	.title {
+		margin: auto;
 		margin-top: 100px;
+		max-width: 800px;
+	}
+
+	h3 {
+		color: white;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
 
 	h1 {
+		font-family: TradeGothicBold, sans-serif;
 		color: white;
-		text-transform: uppercase;
 		font-size: 4rem;
 		font-weight: 100;
 		line-height: 1.1;
 		margin: 2rem auto;
 		max-width: 14rem;
+	}
+
+	#yellow {
+		color: #F1C500;
+	}
+
+	.map img {
+		max-width: 1200px;
+		min-width: 350px;
+		width: 100%;
+	}
+
+	.text {
+		border-top: dashed 1px white;
+		margin: auto;
+		color: white;
+		max-width: 600px;
+		width: 100%;
 	}
 
 	p {
