@@ -1,5 +1,6 @@
 <script>
 	import Top from './lib/TopSofC.svelte'
+	import CalgaryWeb from './assets/calgary-web.png'
 	import TorontoWeb from './assets/toronto-web.png'
 	import TorontoPrint from './assets/toronto-print.png'
 </script>
@@ -15,6 +16,19 @@
 
 	<div class="text">
 		<p>Lorem ipsum blah blah blah</p>
+	</div>
+
+	<div class="text">
+		<h2>CALGARY</h2>
+	</div>
+
+
+	<div class="map">
+		<a href={TorontoPrint}><img src={CalgaryWeb} alt="Calgary Map" /></a>
+	</div>
+
+	<div class="text">
+		<h2>TORONTO</h2>
 	</div>
 
 	<div class="map">
