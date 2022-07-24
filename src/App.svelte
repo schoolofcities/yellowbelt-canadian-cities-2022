@@ -1,9 +1,11 @@
 <script>
 	import Top from './lib/TopSofC.svelte'
 	import CalgaryWeb from './assets/calgary-web.png'
+	import CalgaryPrint from './assets/calgary-print.png'
 	import TorontoWeb from './assets/toronto-web.png'
 	import TorontoPrint from './assets/toronto-print.png'
 	import TorontoLegend from './assets/toronto-legend.svg'
+	import LegendBar from './lib/LegendBar.svelte'
 </script>
 
 <main>
@@ -12,20 +14,26 @@
 
 	<div class="title">
 		<h1><span id="yellow">The Yellowbelt</span></h1>
-		<h2>Mapping exclusionary zoning in four Canadian cities</h2>
+		<h2>Mapping exclusionary residential zoning in four Canadian cities</h2>
+		<p><br><a href="jamaps.github.io">Jeff Allen</a> | July 2022</p>
 	</div>
 
 	<div class="text">
 		<p>Lorem ipsum blah blah blah</p>
+		<br>
+		<br>
 	</div>
 
 	<div class="text">
 		<h2>CALGARY</h2>
+		<LegendBar city="calgary"/>
 	</div>
+
+	
 
 
 	<div class="map">
-		<a href={TorontoPrint}><img src={CalgaryWeb} alt="Calgary Map" /></a>
+		<a href={CalgaryPrint}><img src={CalgaryWeb} alt="Calgary Map" /></a>
 	</div>
 
 	<div class="text">
@@ -59,7 +67,6 @@
 	}
 
 	main {
-		text-align: center;
 		margin-top: 11	0px;
 		padding: 0px;
 		margin: 0px;
@@ -67,6 +74,7 @@
 	}
 
 	.title {
+		text-align: center;
 		margin: auto;
 		margin-top: 100px;
 		max-width: 800px;
@@ -89,11 +97,28 @@
 		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
 
+	p {
+		color: white;	
+		margin: 1rem auto;
+		line-height: 1.35;
+		font-size: 18px;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	}
+
+	a {
+		text-decoration: none;
+		color: #6FC7EA;
+		font-weight: bold;
+	}
+
 	#yellow {
 		color: #F1C500;
 	}
 
 	.map {
+		text-align: center;
+
 		position: relative;
 	}
 
@@ -112,6 +137,7 @@
 	.legend	 {
 		z-index: 1;
 		margin: auto;
+		text-align: center;
 		max-width: 450px;
 		min-width: 350px;
 		width: 100%;
@@ -125,10 +151,7 @@
 		width: 100%;
 	}
 
-	p {
-		margin: 1rem auto;
-		line-height: 1.35;
-	}
+	
 
 	@media (min-width: 480px) {
 		h1 {
