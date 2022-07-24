@@ -3,6 +3,7 @@
 	import CalgaryWeb from './assets/calgary-web.png'
 	import TorontoWeb from './assets/toronto-web.png'
 	import TorontoPrint from './assets/toronto-print.png'
+	import TorontoLegend from './assets/toronto-legend.svg'
 </script>
 
 <main>
@@ -10,8 +11,8 @@
 	<Top/>
 
 	<div class="title">
-		<h1>the <span id="yellow">Yellowbelt</span></h1>
-		<h2>Mapping extreme exclusionary zoning in four Canadian cities</h2>
+		<h1><span id="yellow">The Yellowbelt</span></h1>
+		<h2>Mapping exclusionary zoning in four Canadian cities</h2>
 	</div>
 
 	<div class="text">
@@ -29,6 +30,11 @@
 
 	<div class="text">
 		<h2>TORONTO</h2>
+	</div>
+
+	<div class="legend">
+		<object type="image/svg+xml" data={TorontoLegend}>
+		</object>
 	</div>
 
 	<div class="map">
@@ -54,7 +60,7 @@
 
 	main {
 		text-align: center;
-		margin-top: 100px;
+		margin-top: 11	0px;
 		padding: 0px;
 		margin: 0px;
 		
@@ -64,6 +70,7 @@
 		margin: auto;
 		margin-top: 100px;
 		max-width: 800px;
+		padding-bottom: 40px;
 	}
 
 	h1 {
@@ -86,8 +93,26 @@
 		color: #F1C500;
 	}
 
+	.map {
+		position: relative;
+	}
+
+	.map img:hover {
+		border-right: dashed 1px white;
+		border-left: dashed 1px white;
+		opacity: 0.97;
+	}
+
 	.map img {
 		max-width: 1200px;
+		min-width: 350px;
+		width: 100%;
+	}
+
+	.legend	 {
+		z-index: 1;
+		margin: auto;
+		max-width: 450px;
 		min-width: 350px;
 		width: 100%;
 	}
