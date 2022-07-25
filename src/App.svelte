@@ -36,24 +36,30 @@
 			<svg class="zone-icons">
 				<rect x="0" y="0" width="20" height="20"
 				style="fill:#F1C500;stroke:white;stroke-width:1;" />
+				<text class="zone-icon-label" x="30" y="17" fill="white">Single Detached Only</text>
 			</svg> 
-			<b>Single Detached Only</b><br>(Can only build single detached homes on properties. In some zones, owners can build detached secondary suites)
+			<br>
+			<span class="zone-icon-info">can only build single detached homes on properties. In some zones, owners can build detached secondary suites</span>
 		</p>
 		
 		<p>
 			<svg class="zone-icons">
 				<rect x="0" y="0" width="20" height="20"
 				style="fill:#00A189;stroke:white;stroke-width:1;" />
+				<text class="zone-icon-label" x="30" y="17" fill="white">Other Residential</text>
 			</svg> 
-			<b>Other Residential</b><br>(single detached, semi-detached, townhouses, -plexes, and/or apartments - but no mixed use builidings)
+			<br>
+			<span class="zone-icon-info">single detached, semi-detached, townhouses, -plexes, and/or apartments - but no mixed use builidings</span>
 		</p>
 		
 		<p>
 			<svg class="zone-icons">
 				<rect x="0" y="0" width="20" height="20"
 				style="fill:#6FC7EA;stroke:white;stroke-width:1;" />
+				<text class="zone-icon-label" x="30" y="17" fill="white">Mixed Use</text>
 			</svg> 
-			<b>Mixed Use</b><br>(can develop buildings that have residences mixed with other uses such as retail and offices)
+			<br>
+			<span class="zone-icon-info">same as above, but can also develop buildings that have residences mixed with other uses such as retail and offices</span>
 		</p>
 
 			
@@ -152,9 +158,19 @@
 	}
 
 	.zone-icons {
-			width: 200px;
+			width: 225px;
 			height: 20px;
 		}
+	.zone-icon-label {
+		font-size: 18px;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	.zone-icon-info {
+		font-size: 15px;
+		margin-left: 30px;
+		display: block;
+	}
 
 	.map {
 		text-align: center;
