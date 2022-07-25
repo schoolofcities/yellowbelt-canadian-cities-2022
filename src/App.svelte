@@ -19,7 +19,46 @@
 	</div>
 
 	<div class="text">
-		<p>Lorem ipsum blah blah blah</p>
+		<p>
+			
+		While the housing crises is certainly complex and has many causes, one important part being a lack of supply of housing. Zoning for only single detached housing strictly limits the diversity and density of housing that can be built in a neighbourhood.
+
+		These also contribute to neighbourhoods that are not very walkable, QQQQ, and 
+		
+		Below we map such exclusionary residential zoning in four Canadian cities, showing how in all, more than 50% of the land zoned for residential development only allows for single detached homes 
+	
+		</p>
+
+
+		<p>Each city has dozens (and often different) zoning categorizations. To allow for comparison, we've aggregated these into three distinct types:</p>
+
+		<p>
+			<svg class="zone-icons">
+				<rect x="0" y="0" width="20" height="20"
+				style="fill:#F1C500;stroke:white;stroke-width:1;" />
+			</svg> 
+			<b>Single Detached Only</b><br>(Can only build single detached homes on properties. In some zones, owners can build detached secondary suites)
+		</p>
+		
+		<p>
+			<svg class="zone-icons">
+				<rect x="0" y="0" width="20" height="20"
+				style="fill:#00A189;stroke:white;stroke-width:1;" />
+			</svg> 
+			<b>Other Residential</b><br>(single detached, semi-detached, townhouses, -plexes, and/or apartments - but no mixed use builidings)
+		</p>
+		
+		<p>
+			<svg class="zone-icons">
+				<rect x="0" y="0" width="20" height="20"
+				style="fill:#6FC7EA;stroke:white;stroke-width:1;" />
+			</svg> 
+			<b>Mixed Use</b><br>(can develop buildings that have residences mixed with other uses such as retail and offices)
+		</p>
+
+			
+
+		<p></p>
 		<br>
 		<br>
 	</div>
@@ -72,8 +111,9 @@
 	.title {
 		text-align: center;
 		margin: auto;
-		margin-top: 100px;
+		margin-top: 50px;
 		max-width: 800px;
+		padding: 15px;
 		padding-bottom: 40px;
 	}
 
@@ -83,8 +123,7 @@
 		font-size: 4rem;
 		font-weight: 100;
 		line-height: 1.1;
-		margin: 2rem auto;
-		max-width: 14rem;
+		
 	}
 
 	h2 {
@@ -96,8 +135,8 @@
 	p {
 		color: white;	
 		margin: 1rem auto;
-		line-height: 1.35;
-		font-size: 18px;
+		line-height: 1.55;
+		font-size: 17px;
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
 		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
@@ -111,6 +150,11 @@
 	#yellow {
 		color: #F1C500;
 	}
+
+	.zone-icons {
+			width: 200px;
+			height: 20px;
+		}
 
 	.map {
 		text-align: center;
@@ -145,6 +189,7 @@
 		color: white;
 		max-width: 600px;
 		width: 100%;
+		padding: 15px;
 	}
 
 	
