@@ -4,7 +4,6 @@
 	import CalgaryPrint from './assets/calgary-print.png'
 	import TorontoWeb from './assets/toronto-web.png'
 	import TorontoPrint from './assets/toronto-print.png'
-	import TorontoLegend from './assets/toronto-legend.svg'
 	import LegendBar from './lib/LegendBar.svelte'
 </script>
 
@@ -15,7 +14,8 @@
 	<div class="title">
 		<h1><span id="yellow">The Yellowbelt</span></h1>
 		<h2>Mapping exclusionary residential zoning in four Canadian cities</h2>
-		<p><br><a href="jamaps.github.io">Jeff Allen</a> | July 2022</p>
+		<p>-</p>
+		<p><a href="https://jamaps.github.io">Jeff Allen</a> | July 2022</p>
 	</div>
 
 	<div class="text">
@@ -38,11 +38,7 @@
 
 	<div class="text">
 		<h2>TORONTO</h2>
-	</div>
-
-	<div class="legend">
-		<object type="image/svg+xml" data={TorontoLegend}>
-		</object>
+		<LegendBar city="toronto"/>
 	</div>
 
 	<div class="map">
@@ -118,7 +114,7 @@
 
 	.map {
 		text-align: center;
-
+		padding-bottom: 45px;
 		position: relative;
 	}
 
