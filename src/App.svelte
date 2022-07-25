@@ -105,12 +105,14 @@
 
 	<div class="text">
 		<h2>CALGARY</h2>
+		<a href={CalgaryPrint}>Click here for higher resolution</a>
 		<LegendBar city="calgary" />
 	</div>
 
 	<div class="map">
-		<a href={CalgaryPrint}><img src={CalgaryWeb} alt="Calgary Map" /></a>
+		<img src={CalgaryWeb} alt="Calgary Map" />
 	</div>
+	
 
 	<div class="text">
 		<h2>TORONTO</h2>
