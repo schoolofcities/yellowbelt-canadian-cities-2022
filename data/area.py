@@ -19,6 +19,17 @@ d = {
 }
 utm = "epsg:32612"
 
+
+file_in = "edmonton/data/zoning-edm.shp"
+field = "zoning"
+d = {
+	"SD": {"CCSF","RF1","RMH","RPL","RR","RSL","TSDR","TSLR"},
+	"RO": {"CCLD","GHLD","GLD","GLG","RF2","RF3","RF4","RLD","RMD"},
+	"MU": {"AED","BLMR","BRH","CB3","CCA","CCHD","CCMD","CMU","GVC","HA","HDR","HVRH","JAMSC","MMS","MMUT","RA7","RA7a","RA7g","RA8","RA8g","RA8h","RA9","RF5","RF5g","RF5T","R6","RMU","RTCMR","RVRH","SLD","SRA","SRH","TMU","UCRH","UVCa","UW"}
+}
+utm = "epsg:32612"
+
+
 gdf = gpd.read_file(file_in)
 
 # add categories

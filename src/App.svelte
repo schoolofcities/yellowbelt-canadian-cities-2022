@@ -2,6 +2,7 @@
 	import Top from "./lib/TopSofC.svelte";
 	import CalgaryWeb from "./assets/calgary-web.png";
 	import CalgaryPrint from "./assets/calgary-print.png";
+	import EdmontonWeb from "./assets/edmonton-web.png";
 	import TorontoWeb from "./assets/toronto-web.png";
 	import TorontoPrint from "./assets/toronto-print.png";
 	import LegendBar from "./lib/LegendBar.svelte";
@@ -105,15 +106,22 @@
 
 	<div class="text">
 		<h2>CALGARY</h2>
-		<a href={CalgaryPrint}>Click here for higher resolution</a>
 		<LegendBar city="calgary" />
 	</div>
 
 	<div class="map">
 		<img src={CalgaryWeb} alt="Calgary Map" />
 	</div>
-	
 
+	<div class="text">
+		<h2>EDMONTON</h2>
+		<LegendBar city="edmonton" />
+	</div>
+
+	<div class="map">
+		<a href={TorontoPrint}><img src={EdmontonWeb} alt="Toronto Map" /></a>
+	</div>
+	
 	<div class="text">
 		<h2>TORONTO</h2>
 		<LegendBar city="toronto" />
@@ -122,6 +130,9 @@
 	<div class="map">
 		<a href={TorontoPrint}><img src={TorontoWeb} alt="Toronto Map" /></a>
 	</div>
+
+
+
 </main>
 
 <style>
