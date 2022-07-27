@@ -104,6 +104,8 @@
 		<br />
 	</div>
 
+	
+	
 	<div class="text">
 		<h2>CALGARY</h2>
 		<LegendBar city="calgary" />
@@ -112,6 +114,22 @@
 	<div class="map">
 		<img src={CalgaryWeb} alt="Calgary Map" />
 	</div>
+
+	<div class="info">
+		<p>
+			<b>Information:</b>	<a href="">Zoning By-Law</a> | <a href="">Spatial Data</a>
+		</p>
+	</div>
+
+	<div class="categories">
+		<code>
+			<b>Single Detached:</b><br> R-1,R-1N,R-1s,R-C1,R-C1L,R-C1Ls,R-C1N,R-C1s,R-MH <br>
+			<b>Other Residential:</b><br> CC-MH,M-1, M-2, M-C1, M-C2,M-CG,M-G,M-H1,M-H2,M-H3,M-X1,M-X2,R-2,R-2M,R-C2,R-CG,R-CG-ex,R-G,R-Gm <br>
+			<b>Mixed Use:</b><br> CC-EIR, CC-EMU, CC-EPR,CC-ER,CC-ERR,CC-ET,CC-MHX,CC-X,CR20-C20/R20,MU-1,MU-2
+		</code>
+	</div>
+
+
 
 	<div class="text">
 		<h2>EDMONTON</h2>
@@ -130,6 +148,9 @@
 	<div class="map">
 		<img src={TorontoWeb} alt="Toronto Map" />
 	</div>
+
+	
+
 
 
 
@@ -226,7 +247,7 @@
 
 	.map {
 		text-align: center;
-		padding-bottom: 45px;
+		padding-bottom: 5px;
 		position: relative;
 	}
 
@@ -244,6 +265,32 @@
 		width: calc(100% - 50px);
 		padding: 25px;
 	}
+
+	.info {
+		margin: auto;
+		color: white;
+		max-width: 600px;
+		width: calc(100% - 50px);
+		padding: 25px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.info p {
+		font-size: 15px;
+	}
+
+	.categories {
+		margin: auto;
+		color: white;
+		max-width: 600px;
+		width: calc(100% - 50px);
+		padding: 25px;
+		padding-top: 0px;
+		padding-bottom: 50px;
+	}
+
+
 
 	@media (min-width: 480px) {
 		h1 {
