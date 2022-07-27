@@ -5,7 +5,7 @@ file_in = "toronto/data/Zoning Area.geojson"
 field = "ZN_ZONE"
 d = {
 	"SD": {"RD"},
-	"RO": {"R","RA", "RM", "RS", "RS"},
+	"RO": {"R", "RA", "RM", "RS", "RS"},
 	"MU": {"RAC", "CR", "CRE"}
 }
 utm = "epsg:32617"
