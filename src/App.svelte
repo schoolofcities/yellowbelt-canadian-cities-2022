@@ -1,10 +1,10 @@
 <script>
 	import Top from "./lib/TopSofC.svelte";
 	import CalgaryWeb from "./assets/calgary-web.png";
-	import CalgaryPrint from "./assets/calgary-print.png";
+	// import CalgaryPrint from "./assets/calgary-print.png";
 	import EdmontonWeb from "./assets/edmonton-web.png";
 	import TorontoWeb from "./assets/toronto-web.png";
-	import TorontoPrint from "./assets/toronto-print.png";
+	// import TorontoPrint from "./assets/toronto-print.png";
 	import LegendBar from "./lib/LegendBar.svelte";
 </script>
 
@@ -119,7 +119,7 @@
 	</div>
 
 	<div class="map">
-		<a href={TorontoPrint}><img src={EdmontonWeb} alt="Toronto Map" /></a>
+		<img src={EdmontonWeb} alt="Toronto Map" />
 	</div>
 	
 	<div class="text">
@@ -128,7 +128,7 @@
 	</div>
 
 	<div class="map">
-		<a href={TorontoPrint}><img src={TorontoWeb} alt="Toronto Map" /></a>
+		<img src={TorontoWeb} alt="Toronto Map" />
 	</div>
 
 
@@ -230,17 +230,11 @@
 		position: relative;
 	}
 
-	.map img:hover {
-		border-right: dashed 1px white;
-		border-left: dashed 1px white;
-		opacity: 0.97;
-	}
-
 	.map img {
-		max-width: 1200px;
-		min-width: 350px;
-		width: 100%;
-	}
+			max-width: 1200px;
+			min-width: 350px;
+			width: 100%;
+		}
 
 	.text {
 		border-top: dashed 1px white;
