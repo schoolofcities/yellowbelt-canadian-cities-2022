@@ -117,15 +117,15 @@
 
 	<div class="info">
 		<p>
-			<b>Information:</b>	<a href="">Zoning By-Law</a> | <a href="">Spatial Data</a>
+			<b>More Information:</b>	<a href="https://www.calgary.ca/planning/land-use/online-land-use-bylaw.html">Zoning By-Law</a> | <a href="https://data.calgary.ca/Base-Maps/Land-Use-Districts/mw9j-jik5">Spatial Data</a> | <a href="">High Resolution Map</a>
 		</p>
 	</div>
 
 	<div class="categories">
 		<code>
-			<b>Single Detached:</b><br> R-1,R-1N,R-1s,R-C1,R-C1L,R-C1Ls,R-C1N,R-C1s,R-MH <br>
-			<b>Other Residential:</b><br> CC-MH,M-1, M-2, M-C1, M-C2,M-CG,M-G,M-H1,M-H2,M-H3,M-X1,M-X2,R-2,R-2M,R-C2,R-CG,R-CG-ex,R-G,R-Gm <br>
-			<b>Mixed Use:</b><br> CC-EIR, CC-EMU, CC-EPR,CC-ER,CC-ERR,CC-ET,CC-MHX,CC-X,CR20-C20/R20,MU-1,MU-2
+			<b>Single Detached Zones:</b><br> R-1, R-1N, R-1s, R-C1, R-C1L, R-C1Ls, R-C1N, R-C1s, R-MH <br>
+			<b>Other Residential Zones:</b><br> CC-MH, M-1, M-2, M-C1, M-C2, M-CG, M-G, M-H1, M-H2, M-H3, M-X1, M-X2, R-2, R-2M, R-C2, R-CG, R-CG-ex, R-G, R-Gm <br>
+			<b>Mixed Use Zones:</b><br> CC-EIR, CC-EMU, CC-EPR, CC-ER, CC-ERR, CC-ET, CC-MHX, CC-X, CR20-C20/R20, MU-1, MU-2
 		</code>
 	</div>
 
@@ -139,7 +139,27 @@
 	<div class="map">
 		<img src={EdmontonWeb} alt="Toronto Map" />
 	</div>
-	
+
+	<div class="info">
+		<p>
+			<b>More Information:</b>	<a href="https://webdocs.edmonton.ca/InfraPlan/zoningbylaw/bylaw_12800.htm">Zoning By-Law</a> | <a href="https://data.edmonton.ca/Thematic-Features/Zoning-Bylaw-Geographical-Data/fixa-tstc">Spatial Data</a> | <a href="">High Resolution Map</a>
+		</p>
+	</div>
+
+	<div class="categories">
+		<code>
+			<b>Single Detached Zones:</b><br> CCSF, RF1, RMH, RPL, RR, RSL, TSDR, TSLR <br>
+			<b>Other Residential Zones:</b><br> CCLD, GHLD, GLD, GLG, RF2, RF3, RF4, RLD, RMD <br>
+			<b>Mixed Use Zones:</b><br> AED, BLMR, BRH, CB3, CCA, CCHD, CCMD, CMU, GVC, HA, HDR, HVRH, JAMSC, MMS, MMUT, RA7, RA7a, RA7g, RA8, RA8g, RA8h, RA9, RF5, RF5g, RF5T, R6, RMU, RTCMR, RVRH, SLD, SRA, SRH, TMU, UCRH, UVCa, UW
+		</code>
+	</div>
+
+
+
+
+
+
+
 	<div class="text">
 		<h2>TORONTO</h2>
 		<LegendBar city="toronto" />
