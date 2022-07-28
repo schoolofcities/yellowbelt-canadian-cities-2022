@@ -30,6 +30,17 @@ d = {
 utm = "epsg:32612"
 
 
+file_in = "vancouver/data/zones-categories-clipped-all.shp"
+field = "zone_type"
+d = {
+	"SD": {"SD"},
+	"RO": {"OR"},
+	"MU": {"MU"}
+}
+utm = "epsg:32610"
+
+
+
 gdf = gpd.read_file(file_in)
 
 # add categories

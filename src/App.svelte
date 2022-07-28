@@ -138,7 +138,7 @@
 	</div>
 
 	<div class="map">
-		<img src={EdmontonWeb} alt="Toronto Map" />
+		<img src={EdmontonWeb} alt="Edmonton Map" />
 	</div>
 
 	<div class="info">
@@ -187,7 +187,7 @@
 
 	<div class="text">
 		<h2>VANCOUVER</h2>
-		<LegendBar city="toronto" />
+		<LegendBar city="vancouver" />
 	</div>
 
 	<div class="map">
