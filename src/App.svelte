@@ -5,6 +5,7 @@
 	import EdmontonWeb from "./assets/edmonton-web.png";
 	import TorontoWeb from "./assets/toronto-web.png";
 	// import TorontoPrint from "./assets/toronto-print.png";
+	import VancouverWeb from "./assets/vancouver-web.png";
 	import LegendBar from "./lib/LegendBar.svelte";
 </script>
 
@@ -180,6 +181,33 @@
 			<b>Mixed Use Zones:</b><br> RAC, CR, CRE
 		</code>
 	</div>
+
+
+
+
+	<div class="text">
+		<h2>VANCOUVER</h2>
+		<LegendBar city="toronto" />
+	</div>
+
+	<div class="map">
+		<img src={VancouverWeb} alt="Vancouver Map" />
+	</div>
+
+	<div class="info">
+		<p>
+			<b>More Information:</b>	<a href="https://www.toronto.ca/zoning/bylaw_amendments/ZBL_NewProvision_Chapter1.htm">Zoning By-Law</a> | <a href="https://open.toronto.ca/dataset/zoning-by-law/">Spatial Data</a> | <a href="">High Resolution Map</a>
+		</p>
+	</div>
+
+	<div class="categories">
+		<code>
+			<b>Single Detached Zones:</b><br> RD <br>
+			<b>Other Residential Zones:</b><br> R, RA, RM, RS, RS <br>
+			<b>Mixed Use Zones:</b><br> RAC, CR, CRE
+		</code>
+	</div>
+
 
 	
 
