@@ -1,4 +1,5 @@
 <script>
+	import UnderConstruction from "./lib/UnderConstruction.svelte";
 	import Top from "./lib/TopSofC.svelte";
 	import CalgaryWeb from "./assets/calgary-web.png";
 	// import CalgaryPrint from "./assets/calgary-print.png";
@@ -11,6 +12,8 @@
 
 <main>
 	<Top />
+
+	<UnderConstruction/>
 
 	<div class="title">
 		<h1>Mapping exclusionary residential zoning in four Canadian cities</h1>
