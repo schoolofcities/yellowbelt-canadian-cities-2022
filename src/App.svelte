@@ -89,7 +89,7 @@
 
 	<div class="info">
 		<p>
-			<b>More Information:</b>	<a href="https://www.calgary.ca/planning/land-use/online-land-use-bylaw.html">Zoning By-Law</a> | <a href="https://data.calgary.ca/Base-Maps/Land-Use-Districts/mw9j-jik5">Spatial Data</a> | <a href="">High Resolution Map</a>
+			<b>More Information:</b>	<a href="https://www.calgary.ca/planning/land-use/online-land-use-bylaw.html">Zoning By-Law</a> | <a href="https://data.calgary.ca/Base-Maps/Land-Use-Districts/mw9j-jik5">Spatial Data</a> | <a href="https://raw.githubusercontent.com/schoolofcities/yellowbelt-canadian-cities-2022/main/data/calgary/calgary-print.png">High Resolution Map</a>
 		</p>
 	</div>
 
@@ -114,7 +114,7 @@
 
 	<div class="info">
 		<p>
-			<b>More Information:</b>	<a href="https://webdocs.edmonton.ca/InfraPlan/zoningbylaw/bylaw_12800.htm">Zoning By-Law</a> | <a href="https://data.edmonton.ca/Thematic-Features/Zoning-Bylaw-Geographical-Data/fixa-tstc">Spatial Data</a> | <a href="">High Resolution Map</a>
+			<b>More Information:</b>	<a href="https://webdocs.edmonton.ca/InfraPlan/zoningbylaw/bylaw_12800.htm">Zoning By-Law</a> | <a href="https://data.edmonton.ca/Thematic-Features/Zoning-Bylaw-Geographical-Data/fixa-tstc">Spatial Data</a> | <a href="https://raw.githubusercontent.com/schoolofcities/yellowbelt-canadian-cities-2022/main/data/edmonton/edmonton-print.png">High Resolution Map</a>
 		</p>
 	</div>
 
@@ -139,7 +139,7 @@
 
 	<div class="info">
 		<p>
-			<b>More Information:</b>	<a href="https://www.toronto.ca/zoning/bylaw_amendments/ZBL_NewProvision_Chapter1.htm">Zoning By-Law</a> | <a href="https://open.toronto.ca/dataset/zoning-by-law/">Spatial Data</a> | <a href="">High Resolution Map</a>
+			<b>More Information:</b>	<a href="https://www.toronto.ca/zoning/bylaw_amendments/ZBL_NewProvision_Chapter1.htm">Zoning By-Law</a> | <a href="https://open.toronto.ca/dataset/zoning-by-law/">Spatial Data</a> | <a href="https://raw.githubusercontent.com/schoolofcities/yellowbelt-canadian-cities-2022/main/data/toronto/toronto-print.png">High Resolution Map</a>
 		</p>
 	</div>
 
@@ -164,7 +164,7 @@
 
 	<div class="info">
 		<p>
-			<b>More Information:</b> <a href="https://vancouver.ca/home-property-development/zoning-and-land-use-policies-document-library.aspx">Zoning By-Law</a> | <a href="https://opendata.vancouver.ca/explore/dataset/zoning-districts-and-labels/information/?disjunctive.zoning_classification&disjunctive.zoning_category&disjunctive.zoning_district">Spatial Data</a> | <a href="">High Resolution Map</a>
+			<b>More Information:</b> <a href="https://vancouver.ca/home-property-development/zoning-and-land-use-policies-document-library.aspx">Zoning By-Law</a> | <a href="https://opendata.vancouver.ca/explore/dataset/zoning-districts-and-labels/information/?disjunctive.zoning_classification&disjunctive.zoning_category&disjunctive.zoning_district">Spatial Data</a> | <a href="https://raw.githubusercontent.com/schoolofcities/yellowbelt-canadian-cities-2022/main/data/vancouver/vancouver-print.png">High Resolution Map</a>
 		</p>
 	</div>
 
