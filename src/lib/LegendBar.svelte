@@ -29,7 +29,6 @@
 	let divWidth;
 	const height = 90;
 
-	const innerHeight = height - margin.top - margin.bottom;
 	$: innerWidth = divWidth - margin.left - margin.right;
 
 	$: boxes = [
@@ -45,8 +44,6 @@
 	function toPercent(x) {
 		return(parseFloat(x).toFixed(1)+"%")
 	}
-
-	$: console.log(boxes[1][0])
 
 </script>
 
