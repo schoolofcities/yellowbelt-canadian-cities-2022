@@ -35,7 +35,7 @@
 	$: boxes = [
 		[0, cities[city]["SD"] / 100 * innerWidth], 
 		[cities[city]["SD"] / 100 * innerWidth, cities[city]["OR"] / 100 * innerWidth],
-		[(cities[city]["SD"] / 100 + cities[city]["OR"] / 100) * innerWidth, cities[city]["MU"] / 100	 * innerWidth]
+		[(cities[city]["SD"] / 100 + cities[city]["OR"] / 100) * innerWidth, cities[city]["MU"] / 100 * innerWidth]
 	]
 
 	$: label_pts = boxes.map(b =>
@@ -45,6 +45,8 @@
 	function toPercent(x) {
 		return(parseFloat(x).toFixed(1)+"%")
 	}
+
+	$: console.log(boxes[1][0])
 
 </script>
 
@@ -56,7 +58,7 @@
 			<text x={label_pts[2]} y="15" fill="white">{toPercent(cities[city]["MU"])}</text>
 
 			<text x={boxes[0][0]} y="60" fill="white">Single Detached Only</text>
-			<text x={boxes[1][0]} y="60" fill="white">Other Residential</text>
+			<text x={Math.min(divWidth - 132,boxes[1][0])} y="60" fill="white">Other Residential</text>
 			<text x={divWidth - 1} y="80" text-anchor="end" fill="white">Mixed Use</text>
 
 			<line x1={divWidth - 5} y1="45" x2={divWidth - 5} y2="65" style="stroke:white;stroke-width:2" />

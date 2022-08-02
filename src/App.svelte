@@ -75,7 +75,7 @@
 			<span class="zone-icon-info">Same as above, but can also develop buildings that have residences mixed with other uses such as retail and offices</span>
 		</p>
 		<p>
-			This page and it's content (maps, data analysis, etc.) are on <a href="https://github.com/schoolofcities/yellowbelt-canadian-cities-2022">GitHub</a>
+			This page and it's content (maps, data analysis, etc.) are hosted on <a href="https://github.com/schoolofcities/yellowbelt-canadian-cities-2022">GitHub</a>
 		</p>
 	</div>
 
