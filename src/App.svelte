@@ -8,6 +8,12 @@
 	import LegendBar from "./lib/LegendBar.svelte";
 </script>
 
+<svelte:head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</svelte:head>
+
 <main>
 
 	<Top />
@@ -192,8 +198,7 @@
 		src: url("./assets/Trade Gothic LT Bold.ttf");
 	}
 	:root {
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-			Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+		font-family: 'Roboto', sans-serif;
 	}
 	:global(body) {
 		padding: 0px;
@@ -237,8 +242,7 @@
 
 	h2 {
 		color: white;
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-			Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+		font-family: 'Roboto', sans-serif;
 	}
 
 	p {
@@ -246,8 +250,7 @@
 		margin: 1rem auto;
 		line-height: 1.55;
 		font-size: 17px;
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-			Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+		font-family: 'Roboto', sans-serif;
 	}
 
 	a {
