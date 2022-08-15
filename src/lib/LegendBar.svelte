@@ -14,8 +14,8 @@
 			"MU": 5.8
 		},
 		"edmonton": {
-			"SD": 68.0,
-			"OR": 16.7,
+			"SD": 20.7,
+			"OR": 64.0,
 			"MU": 15.3
 		},
 		"vancouver": {
@@ -55,7 +55,7 @@
 			<text x={label_pts[2]} y="15" fill="white">{toPercent(cities[city]["MU"])}</text>
 
 			<text x={boxes[0][0]} y="60" fill="white">Single Detached Only</text>
-			<text x={Math.min(divWidth - 132,boxes[1][0])} y="60" fill="white">Other Residential</text>
+			<text x={Math.min(divWidth - 132,Math.max(boxes[1][0],165))} y="60" fill="white">Other Residential</text>
 			<text x={divWidth - 1} y="80" text-anchor="end" fill="white">Mixed Use</text>
 
 			<line x1={divWidth - 5} y1="45" x2={divWidth - 5} y2="65" style="stroke:white;stroke-width:2" />
