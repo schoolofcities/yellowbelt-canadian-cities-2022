@@ -24,7 +24,7 @@
 
 	<div class="text">
 		<p>
-			We've created maps of Canadian cities showing how <span id="yellow"><b>more than 50%</b></span> of the land zoned for residential development <span id="yellow"><b>only allows for single detached homes</b></span>.
+			We've created maps of Canadian cities showing how <span id="yellow"><b>more than 50%</b></span> of the land zoned for residential development in most cities <span id="yellow"><b>only allows for single detached homes</b></span>.
 		</p>
 		<p>
 			<a href="https://en.wikipedia.org/wiki/Exclusionary_zoning">Exclusionary zoning</a> for only single detached housing (i.e. the <a href="http://www.mapto.ca/maps/2017/3/4/the-yellow-belt">Yellowbelt</a>) strictly limits the diversity and density of housing that can be built in a neighbourhood. Lack of supply of housing within cities, particularly the <a href="https://99percentinvisible.org/episode/the-missing-middle/">missing middle</a>, has been cited as a key driver for <a href="https://trreb.ca/hlfiles/pdf/2021.01.04-TRREB_Missing_Middle.pdf">rising housing prices</a> (among <a href="https://www.youtube.com/watch?v=wP3uQUZlhdo&t=0s">other factors</a>). Because of their low density, single detached neighbourhoods are also less walkable (i.e. are more <a href = "https://www150.statcan.gc.ca/n1/en/pub/11-008-x/2008001/article/10503-eng.pdf?st=qvzoFyxE">car dependent</a>), which has wider negative environmental and population health effects. As such, there have been several <a href="https://chbooks.com/Books/H/House-Divided">calls</a> to <a href="https://www.tvo.org/article/end-exclusionary-zoning-says-torontos-board-of-trade">end</a> exclusionary zoning in Canadian cities.
