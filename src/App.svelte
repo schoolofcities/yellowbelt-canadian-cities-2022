@@ -132,8 +132,8 @@
 
 	<div class="categories">
 		<code>
-			<b>Single Detached Zones:</b><br> CCSF, RF1, RMH, RPL, RR, RSL, TSDR, TSLR <br>
-			<b>Other Residential Zones:</b><br> CCLD, GHLD, GLD, GLG, RF2, RF3, RF4, RLD, RMD <br>
+			<b>Single Detached Zones:</b><br> CCSF, RMH, RPL, RR, RSL, TSDR, TSLR <br>
+			<b>Other Residential Zones:</b><br> CCLD, GHLD, GLD, GLG, RF1, RF2, RF3, RF4, RLD, RMD <br>
 			<b>Mixed Use Zones:</b><br> AED, BLMR, BRH, CB3, CCA, CCHD, CCMD, CMU, GVC, HA, HDR, HVRH, JAMSC, MMS, MMUT, RA7, RA7a, RA7g, RA8, RA8g, RA8h, RA9, RF5, RF5g, RF5T, R6, RMU, RTCMR, RVRH, SLD, SRA, SRH, TMU, UCRH, UVCa, UW
 		</code>
 	</div>
